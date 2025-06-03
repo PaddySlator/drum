@@ -1,0 +1,41 @@
+# Ignore Jupyter autosave files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Ignore all data files
+/data/*
+!/data/.gitkeep   # optional: keep empty folder tracked
+
+# Optionally preserve README in data folder
+!/data/README.md
+
+# Ignore PowerPoint autosaves and backups
+*.pptx~
+~$*.pptx
+
+# Optional: ignore all editable schematic files
+/media/*.pptx
+/media/*.pdf
+
+# Ignore temporary or log files
+*.log
+*.tmp
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg
+*.egg-info/
+*.log
+*.tmp
+*.bak
+
+# Ignore Python virtual environment folders
+env/
+.venv/
+venv/
+
