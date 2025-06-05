@@ -39,3 +39,5 @@ env/
 .venv/
 venv/
 
+# VS Code
+.vscode
